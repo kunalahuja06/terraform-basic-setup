@@ -1,0 +1,1 @@
+# terraform-localstack-basic-setup
