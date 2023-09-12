@@ -11,9 +11,11 @@ This is a basic terraform setup to create a Lambda function and an API Gateway t
 ## Setup
 
 1. Clone this repository
-2. Run `terraform init`
-3. Run `terraform plan`
-4. Run `terraform apply`
+2. Update access_key and secret_key in `provider.tf` with your AWS credentials
+3. Update Lambda function code in `lambda.tf` with your own code
+4. Run `terraform init` to initialize the project
+5. Run `terraform plan` to see what resources will be created
+6. Run `terraform apply` to create the resources
 
 ## references
 
