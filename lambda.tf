@@ -2,7 +2,7 @@
 resource "aws_lambda_function" "test-lambda" {
   function_name = "test-lambda"                                                                          # name of the lambda function
   filename      = "<your lambda zip file>" # name of the lambda function
-  role          = "arn:aws:iam::000000000000:role/lambda-role"                                           # role of the lambda function
+  role          = "<Lambda role>"                                           # role of the lambda function
   description   = "My lambda function"                                                                   # description of the lambda function                                                            # s3 key to store the lambda function code
   handler       = "<Lambda handler>"                # entry point to the lambda function
   runtime       = "<lambda runtime environment>"                                                                              # stack used by the lambda function
